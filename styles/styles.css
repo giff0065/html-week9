@@ -64,8 +64,13 @@ h1{
     font-size:2em;
     text-align:center;
     padding:15px 0;
+    /* BORDER */
+    /*border: black 3px dashed;*/
+    border-color: black;
+    border-width: 3px;
+    border-style: double;
+    border-radius: 100px;
 }
-
 h2{
     font-size:1.8em;
 }
@@ -202,6 +207,12 @@ nav ul{
     nav ul li{
         float: left;
         margin: 20px 10px 0
+        width: 25%;  
+        text-align: center;
     }
+    nav ul li a{
+        text-decoration: none;
+    }
+
 
 }
